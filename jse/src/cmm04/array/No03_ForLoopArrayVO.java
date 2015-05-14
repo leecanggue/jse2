@@ -42,6 +42,7 @@ public class No03_ForLoopArrayVO {
 	public void setE(int e) {
 		this.e = e;
 	}
+	
 
 	void forLoopArrayVO(int a, int b, int c, int d, int e) {
 		
@@ -60,7 +61,6 @@ public class No03_ForLoopArrayVO {
 			 sum += arr[i]; 
 		}
 		System.out.println(sum);
-		
 		
 		
 		
