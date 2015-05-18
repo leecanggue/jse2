@@ -49,7 +49,7 @@ public class GameRpsService {
 
 	public void msg(int playerValue) {
 		String msg ;
-	msg = "0~4사이 수를 입력하시오";
+	msg = "0~3사이 수를 입력하시오";
 		System.out.println(msg);
 	}
 

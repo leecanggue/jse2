@@ -18,7 +18,6 @@ public class PayVo {
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
-	
 	public int getIncome() {
 		return income;
 	}
