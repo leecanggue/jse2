@@ -1,4 +1,4 @@
-package oop01.encapsule;
+package oop02.encapsule;
 
 import java.util.Random;
 
@@ -37,6 +37,7 @@ public class GameRpsService {
 
 	public String showWinner(int playerValue, int comValue) {
 		String msg =null;
+		
 		if(playerValue > comValue){
 			msg = "이겼습니다!!";
 		}else if(playerValue < comValue){

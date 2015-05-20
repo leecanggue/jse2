@@ -1,6 +1,7 @@
-package oop01.encapsule;
+package oop02.encapsule;
 
-public class GameRpsVO {
+public class RpsVO {
+
 	int rock, paper, scissors;
 
 	public int getRock() {
@@ -26,6 +27,5 @@ public class GameRpsVO {
 	public void setScissors(int scissors) {
 		this.scissors = scissors;
 	}
-	
-	
+
 }
