@@ -19,6 +19,7 @@ public class RpsController {
 				int comVal = service.displayComval();
 				System.out.println("컴퓨터는 " + service.showRpsVal(comVal)
 						+ "를 냈습니다.");
+				
 				String winner = service.showWinner(playerVal, comVal);
 				System.out.println(winner);
 			} else {
